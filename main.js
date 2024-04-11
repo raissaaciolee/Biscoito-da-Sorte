@@ -3,13 +3,13 @@ const secondScreen = document.querySelector('.secondScreen')
 const cookieButton = document.getElementById('cookieButton')
 const resetButton = document.getElementById('resetButton')
 
-//Função para fazer a trocar de telas
+//Função para fazer a troca de telas
 function handleTwoScreen() {
     firstScreen.classList.toggle('hide')
     secondScreen.classList.toggle('hide')
 
     
-    //Muda a frase de aleatóriamente
+    //Muda a frase aleatóriamente
     const phrases = [
         "O sucesso torna as pessoas modestas, amigáveis e tolerantes. E o fracasso que as faz ásperas e ruins.",
     
